@@ -96,9 +96,9 @@ export const HeroSection = () => {
             {/* Social & Experience Row */}
             <div className="min-w-7xl  md:mx-auto md:mt-14 flex flex-row lg:flex-row items-center justify-center gap-10 md:gap-20 text-gray-300 md:pt-8 pb-10 md:pb-0 px-4 sm:px-6 lg:px-8">
                 {/* Experience */}
-                <div className="flex items-center space-x-3">
+                <div className="hidden md:flex items-center space-x-3">
                     <Award className="text-blue-400" size={40} />
-                    <div className='hidden md:block'>
+                    <div className=''>
                         <div className="text-white font-semibold text-lg">1+ Year</div>
                         <div className="text-lg">Experience</div>
                     </div>
@@ -113,7 +113,7 @@ export const HeroSection = () => {
                         href="https://github.com/abhi-patil-06"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="hidden md:block underline text-xl hover:text-blue-400"
+                        className="underline text-xl hover:text-blue-400"
                     >
                         Github
                     </a>
@@ -128,7 +128,7 @@ export const HeroSection = () => {
                         href="https://www.linkedin.com/in/abhilash-patil-285a0825b/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="hidden md:block underline text-xl hover:text-blue-400"
+                        className="underline text-xl hover:text-blue-400"
                     >
                         LinkedIn
                     </a>
@@ -137,13 +137,13 @@ export const HeroSection = () => {
                 <div className="hidden lg:block w-px h-10 bg-slate-600"></div>
 
                 {/* Email */}
-                <div className="flex items-center space-x-3">
+                <div className="hidden md:flex items-center space-x-3">
                     <Mail className="text-blue-400" size={40} />
                     <a
                         href="mailto:patilabhilash06@gmail.com"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="hidden md:block underline text-xl hover:text-blue-400"
+                        className="underline text-xl hover:text-blue-400"
                     >
                         Email
                     </a>
