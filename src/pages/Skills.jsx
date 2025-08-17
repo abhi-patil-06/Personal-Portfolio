@@ -75,7 +75,7 @@ const SkillsSection = () => {
           {skillCategories.map((category, index) => (
             <div
               key={index}
-              className="bg-slate-800/30 p-6 rounded-xl border border-slate-700 hover:bg-slate-800/50 transition-all duration-300 group"
+              className=" p-6   hover:bg-slate-800/50 transition-all duration-300 group"
             >
               <div className="flex items-center space-x-3 mb-6">
                 {category.icon}

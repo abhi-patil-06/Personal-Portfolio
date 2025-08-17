@@ -56,7 +56,7 @@ const CertificationSection = () => {
           {certifications.map((cert, idx) => (
             <div
               key={idx}
-              className="bg-slate-800 min-h-[350px] rounded-3xl p-8 border border-slate-700 shadow-lg flex flex-col items-center text-center group"
+              className="  p-8 pt-25 shadow-lg flex flex-col items-center text-center group"
             >
               <div className="p-4 rounded-full bg-gradient-to-tr from-blue-400 to-cyan-400 mb-6 text-white shadow-md">
                 <Award size={40} />

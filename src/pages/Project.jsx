@@ -54,7 +54,7 @@ export const ProjectsSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-5 md:px-0">
           {projects.map((project, index) => (
-            <div key={index} className="group bg-slate-800/30 rounded-xl border border-slate-700 overflow-hidden hover:bg-slate-800/50 transition-all duration-300 hover:border-blue-400/50 hover:shadow-xl hover:shadow-blue-400/10">
+            <div key={index} className="group    overflow-hidden  transition-all duration-300  hover:shadow-xl hover:shadow-blue-400/10">
               {/* Project Image/Icon */}
               <div className="h-48 bg-gradient-to-br from-blue-600/20 to-cyan-600/20 flex items-center justify-center">
                 <span className="text-6xl">{project.image}</span>

@@ -69,7 +69,7 @@ const CTASection = () => {
   return (
     <section
       id="contact"
-      className="min-h-[400px] bg-slate-900 flex flex-col items-center justify-center relative overflow-hidden"
+      className="min-h-[500px] bg-slate-900 flex flex-col items-center justify-center relative overflow-hidden"
     >
       <h2 className="text-4xl font-bold text-white mb-6 text-center">
         Get in <span className="text-blue-400">Touch</span>
