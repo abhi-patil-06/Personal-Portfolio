@@ -38,7 +38,8 @@ const SkillsSection = () => {
       icon: <Code className="text-blue-400" size={24} />,
       skills: [
         { name: "Git", level: 75 },
-        { name: "Monitoring", level: 70 },
+        { name: "Prometheus", level: 80 },
+        { name: "Grafana", level: 70 },
         { name: "AWS", level: 45 },
         { name: "VS Code", level: 95 },
         { name: "Databricks", level: 30 },

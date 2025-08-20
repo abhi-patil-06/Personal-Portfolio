@@ -99,7 +99,7 @@ export const HeroSection = () => {
                 <div className="hidden md:flex items-center space-x-3">
                     <Award className="text-blue-400" size={40} />
                     <div className=''>
-                        <div className="text-white font-semibold text-lg">1+ Year</div>
+                        <div className="text-white font-semibold text-lg">8 Months</div>
                         <div className="text-lg">Experience</div>
                     </div>
                 </div>

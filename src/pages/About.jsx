@@ -65,7 +65,7 @@ export const AboutSection = () => {
                 <h3 className="text-blue-400 font-semibold mb-3 text-lg">
                   Experience
                 </h3>
-                <p className="text-white text-2xl font-extrabold">1+ Year</p>
+                <p className="text-white text-2xl font-extrabold">8 Months</p>
               </div>
               <div
                 className={`bg-slate-800/70 p-8 rounded-2xl border border-slate-700 hover:border-cyan-500 transition-colors duration-500 shadow-lg ${
